@@ -1,6 +1,8 @@
 // src/components/Projects.js
 import React from 'react';
 import './index.css'
+import nxtwatch from '../../assets/Images/nxtwatch.png';
+import nxtcart from '../../assets/Images/nxtcart.png';
 
 const Projects = () => {
   return (
@@ -8,7 +10,7 @@ const Projects = () => {
       <div className='project-container'>
       <div >
         <a href='https://vinodnextwatch.ccbp.tech' target='_blank'>
-        <img className='image-size' src={`${process.env.PUBLIC_URL}/images/nxtwatch.png`} alt="image-error"/></a>
+        <img className='image-size' src={nxtwatch} alt="image-error"/></a>
       </div>
       <div className='description-container'>
         <h1 className='heading'>Nxt Watch</h1>
@@ -27,7 +29,7 @@ Storage, JWT Token, Authorization, Authentication.</p>
       <div className='project-container'>
       <div >
         <a href='https://vinodnxtcart.ccbp.tech' target='_blank'>
-        <img className='image-size' src={`${process.env.PUBLIC_URL}/images/nxtcart.png`} alt="image-error"/></a>
+        <img className='image-size' src={nxtcart} alt="image-error"/></a>
       </div>
       <div className='description-container'>
         <h1 className='heading'>E Commerce Website</h1>

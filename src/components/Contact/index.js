@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './index.css'
+import './index.css';
+import contact from '../../assets/Images/contact.png';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -35,7 +36,7 @@ const Contact = () => {
   return (
     <div className='contact-container'>
       <div>
-        <img src={`${process.env.PUBLIC_URL}/images/contact.png`} alt="image-error"/>
+        <img src={contact} alt="image-error"/>
       </div>
       <div className='contact-input'>
       <h1>Contact Me</h1><br></br>

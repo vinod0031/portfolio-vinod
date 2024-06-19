@@ -1,6 +1,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css";
+import htmlcss from '../../assets/Images/html-css.png';
+import pythons from '../../assets/Images/python.png';
+import bootstraps from '../../assets/Images/bootstrap.png';
+import nodes from '../../assets/Images/node.png';
+import sqls from '../../assets/Images/sql.png';
+import javscripts from '../../assets/Images/javascript.png';
+
+
+
+
+
 
 const Certificates = () => {
   return (
@@ -15,22 +26,22 @@ const Certificates = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={`${process.env.PUBLIC_URL}/images/python.png`} className="d-block w-100" alt="Slide 1" />
+          <img src={htmlcss} className="d-block w-100" alt="Slide 1" />
         </div>
         <div className="carousel-item">
-          <img src={`${process.env.PUBLIC_URL}/images/html-css.png`} className="d-block w-100" alt="Slide 2" />
+          <img src={pythons} className="d-block w-100" alt="Slide 2" />
         </div>
         <div className="carousel-item">
-          <img src={`${process.env.PUBLIC_URL}/images/bootstrap.png`} className="d-block w-100" alt="Slide 3" />
+          <img src={bootstraps} className="d-block w-100" alt="Slide 3" />
         </div>
         <div className="carousel-item">
-          <img src={`${process.env.PUBLIC_URL}/images/javascript.png`} className="d-block w-100" alt="Slide 4" />
+          <img src={nodes} className="d-block w-100" alt="Slide 4" />
         </div>
         <div className="carousel-item">
-          <img src={`${process.env.PUBLIC_URL}/images/node.png`} className="d-block w-100" alt="Slide 5" />
+          <img src={sqls} className="d-block w-100" alt="Slide 5" />
         </div>
         <div className="carousel-item">
-          <img src={`${process.env.PUBLIC_URL}/images/sql.png`} className="d-block w-100" alt="Slide 6" />
+          <img src={javscripts} className="d-block w-100" alt="Slide 6" />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

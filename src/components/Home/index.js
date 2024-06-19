@@ -1,10 +1,11 @@
 import React from 'react';
+import vinodImage from '../../assets/Images/vinod_new.png';
 import './index.css'
 const Home = () => {
 return (
     <div className='Home-container'>
 <div>
-    <img className='vinod-image' src={`${process.env.PUBLIC_URL}/images/vinod_new.png`} alt='image-error'/>
+    <img className='vinod-image' src={vinodImage} alt='image-error'/>
 </div>
 <div className='page'>
     <h1 className='hi'>Hi,I'm <span className='vinod'>Vinod Kumar,</span></h1><br>

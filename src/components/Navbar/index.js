@@ -2,12 +2,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
+import codelog from '../../assets/Images/code-log.jpg';
 
 const Navbar = () => {
   return (
     <div className='navbar-container'>
       <div className='img-cont'>
-        <img className="logo-image-size" src={`${process.env.PUBLIC_URL}/images/code-log.jpg`} alt='image-error'/>
+        <img className="logo-image-size" src={codelog} alt='image-error'/>
         <p className='number'>Cell +91 88978-25325</p>
       </div>
       <div>
