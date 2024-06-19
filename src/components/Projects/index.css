@@ -1,0 +1,41 @@
+.image-size{
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+  
+    border-radius: 5px;
+    transition: all 0.3s;
+    
+}
+.image-size:hover{
+    transform: scale(1.15);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+.description-container{
+    height:300px ;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.heading{
+    font-family: Georgia, serif;
+    margin: auto;
+    color: #243d86;
+}
+.pera{
+    font-family: serif;
+}
+
+.linkpro{
+  
+    text-decoration: none;
+}

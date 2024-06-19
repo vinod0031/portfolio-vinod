@@ -1,0 +1,46 @@
+.vinod-image{
+    height: 600px;
+    width: 400px;
+    margin-left: 100px;
+
+}
+.Home-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.hi{
+    font-family:  "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+.heading-fulstack{
+    font-family: Georgia, serif;
+    color: #243d86;
+}
+.vinod{
+    color: #612116;
+}
+
+.pera{
+    color: #243d86;
+    font-style: normal;
+    font-weight: 400;
+    font-family: serif;
+}
+
+.button{
+    transition: all 0.3s;
+    background-color:#243d86 ;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button:hover{
+    transform: scale(1.15);
+    box-shadow: 0px 0px 20px rgba(83, 99, 169, 0.5);
+}

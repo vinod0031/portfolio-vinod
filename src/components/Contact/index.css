@@ -1,0 +1,35 @@
+.contact-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+.contact-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.input-space{
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border: solid 0.1px;
+    border-radius: 3px;
+}
+
+.button-send{
+    background-color: #243d86;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+}
