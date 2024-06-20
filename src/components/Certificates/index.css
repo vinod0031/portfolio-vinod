@@ -1,4 +1,5 @@
-.carousel{
+/* Base Styles (for larger screens) */
+.carousel {
     height: 660px;
     width: 650px;
     display: flex;
@@ -6,4 +7,14 @@
     justify-content: center;
     align-items: center;
     margin-left: 450px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .carousel {
+        height: auto; /* Automatically adjust height */
+        width: 100%; /* Full width for smaller screens */
+        margin-left: 0; /* Remove left margin */
+        padding: 10px; /* Add some padding for spacing */
+    }
 }

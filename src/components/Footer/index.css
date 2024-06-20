@@ -1,10 +1,18 @@
-.clolorfont{
+/* Base Styles (for larger screens) */
+.clolorfont {
     color: white;
     margin: 10px;
     transition: all 0.3s;
-    
 }
-.clolorfont:hover{
+
+.clolorfont:hover {
     transform: scale(1.15);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .clolorfont {
+        margin: 5px; /* Adjust margin for better spacing on smaller screens */
+    }
 }

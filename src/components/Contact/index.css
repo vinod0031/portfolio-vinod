@@ -1,35 +1,60 @@
-.contact-input{
+/* Base Styles (for larger screens) */
+.contact-input {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     margin-left: 50px;
     padding: 20px;
-    box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-
 }
-.contact-container{
+
+.contact-container {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
-   
 }
 
-.input-space{
+.input-space {
     margin-bottom: 20px;
     background-color: #f2f2f2;
     border: solid 0.1px;
     border-radius: 3px;
 }
 
-.button-send{
+.button-send {
     background-color: #243d86;
     color: white;
     border-radius: 5px;
     padding: 5px;
     width: 100px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .contact-input {
+        margin-left: 0; /* Remove left margin */
+        padding: 10px; /* Reduce padding */
+        width: 90%; /* Make it responsive to the screen width */
+        box-sizing: border-box; /* Ensure padding does not exceed container width */
+    }
+
+    .contact-container {
+        flex-direction: column; /* Stack elements vertically */
+        margin-top: 20px; /* Reduce top margin */
+    }
+
+    .input-space {
+        width: 100%; /* Full width for input elements */
+    }
+
+    .button-send {
+        width: 100%; /* Full width for button */
+        padding: 10px; /* Increase padding for better touch targets */
+        box-sizing: border-box; /* Ensure padding does not exceed container width */
+        text-align: center; /* Center button text */
+    }
 }

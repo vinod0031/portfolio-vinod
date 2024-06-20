@@ -1,36 +1,29 @@
-.cards-container{
+/* Base Styles (for larger screens) */
+.cards-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.icons-size{
+.icons-size {
     height: 80px;
     width: 80px;
     color: #243d86;
 }
 
-.Font-st{
+.Font-st {
     font-family: Georgia, serif;
     font-size: 22px;
 }
 
-.card-container:hover{
-    transform: scale(1.15);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
-
-}
-
-
-.card-container{
+.card-container {
     transition: all 0.3s;
     text-align: center;
-    margin: 25PX;
+    margin: 25px;
     border-radius: 10px;
     border-top-right-radius: 70px;
     border-bottom-left-radius: 70px;
-    /* background-color: #afb3bd; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +34,33 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add shadow */
 }
 
-.card-pera{
+.card-container:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+}
+
+.card-pera {
     font-size: 12px;
-    
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .card-container {
+        width: 90%; /* Make cards responsive to the screen width */
+        height: auto; /* Let height adjust based on content */
+        margin: 15px; /* Adjust margin for better spacing */
+    }
+
+    .icons-size {
+        height: 60px; /* Reduce icon size for mobile */
+        width: 60px;
+    }
+
+    .Font-st {
+        font-size: 18px; /* Adjust font size for readability on smaller screens */
+    }
+
+    .card-pera {
+        font-size: 14px; /* Adjust font size for readability on smaller screens */
+    }
 }
