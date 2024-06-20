@@ -12,6 +12,8 @@
     color: #243d86;
 }
 
+
+
 .Font-st {
     font-family: Georgia, serif;
     font-size: 22px;
@@ -37,6 +39,8 @@
 .card-container:hover {
     transform: scale(1.15);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+    
+    
 }
 
 .card-pera {
